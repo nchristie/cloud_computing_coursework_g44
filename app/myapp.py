@@ -77,7 +77,7 @@ def get_description_of_album(bandname, album):
     return jsonify(response)
 
 
-@app.route('/records/<bandname>/video', methods=['GET'])
+@app.route('/records/video/<bandname>', methods=['GET'])
 def get_video(bandname):
     # takes a band name, returns URL to iTunes video if it exists
     try:
