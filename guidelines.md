@@ -10,8 +10,8 @@ The project will have the form of an application, developed in Python and Flask.
 
 The mini project will work on the following aspects of Cloud applications: (10 points)
 
-- [ ] REST-based service interface for CRUD operations (for example: data query and post-processing).
-- [ ] Interaction with external REST services. (please see Additional Information)
+- [x] REST-based service interface for CRUD operations (for example: data query and post-processing).
+- [x] Interaction with external REST services. (please see Additional Information)
 - [ ] Use of an external Cloud database for persisting information. (for example: any database server of GCP, AWS, other providers like MS Azure, Heroku (no credits required).
 
 ## PROJECT SPECIFICATION
@@ -20,8 +20,8 @@ You can decide the application domain for your application. You can either build
 
 The base application to be developed has a base score of 10/15 points, as long as it complies with the following requirements:
 
-- [ ] The application provides a dynamically generated REST API. The API must have a sufficient set of services for the selected application domain. The REST API responses must conform to REST standards (e.g. response codes).  3 Points
-- [ ] The application makes use of an external REST service to complement its functionality. 3 Points
+- [x] The application provides a dynamically generated REST API. The API must have a sufficient set of services for the selected application domain. The REST API responses must conform to REST standards (e.g. response codes).  3 Points
+- [x] The application makes use of an external REST service to complement its functionality. 3 Points
 - [ ] The application uses a cloud database for accessing persistent information. 3 Points
 - [ ] The application code is well documented (in each of the code files, as well as in the README.MD file of the git repository). 1 Point
 
