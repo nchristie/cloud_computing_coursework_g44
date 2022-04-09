@@ -86,7 +86,7 @@ def get_video(bandname):
         itunes_response_json = requests.get(itunes_request).json()
         itunes_url = itunes_response_json['results'][0]["previewUrl"]
         itunes_url_with_quotes = f'"{itunes_url}"'
-        return(f"<h1>Here's a great video by {bandname}! <a href={itunes_url_with_quotes}>{itunes_url}</a></h1>")
+        return(f"<h1>Here's a great video by {bandname}!\n<a href={itunes_url_with_quotes}>{itunes_url}</a></h1>")
 
     except:
         return(f"<h1>Sorry, we couldn't find a video by {bandname} for you :(</h1>")
