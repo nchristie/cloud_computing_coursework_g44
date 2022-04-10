@@ -37,7 +37,7 @@ def view():
     # response list consisting user details
     response = list()
  
-    for song in albumsongs:
+    for song in songs:
         response.append({
             "albumname" : song.albumname,
             "songname": song.songname
