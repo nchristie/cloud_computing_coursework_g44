@@ -62,17 +62,21 @@ def get_video(bandname):
     try:
         formatted_bandname = "+".join(bandname.split())
         itunes_request = f"https://itunes.apple.com/search?term={formatted_bandname}&entity=musicVideo&limit=1"
+
         itunes_response_json = requests.get(itunes_request).json()
         itunes_url = itunes_response_json['results'][0]["previewUrl"]
         itunes_url_with_quotes = f'"{itunes_url}"'
         return(f"<h1>Here's a great video by {bandname}!</h1><h2><a href={itunes_url_with_quotes}>{itunes_url}</a></h2>")
+
 
     except:
         return(f"<h1>Sorry, we couldn't find a video by {bandname} for you :(</h1>")
 
 
 
-@app.route('/addbandalbum/', methods =['POST'])
+
+
+@app.route('/addbandalbum/', methods =['POST', 'GET'])
 def add():
     # getting name and email
     bandname = request.form.get('bandname')
