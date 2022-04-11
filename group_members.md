@@ -4,4 +4,4 @@ Source: https://qmplus.qmul.ac.uk/mod/choicegroup/view.php?id=1537727
 - Kyle Dean
 - Abigail Lewis: a.lewis@se20.qmul.ac.uk
 - Nina Lindsay: ec20100@qmul.ac.uk
-- George Alexandru Smau
+- George Alexandru Smau ec211084@qmul.ac.uk
