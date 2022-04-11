@@ -1,3 +1,7 @@
 Flask
 requests
 pymysql
+Flask-SQLAlchemy
+mysqlclient
+
+
