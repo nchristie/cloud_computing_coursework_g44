@@ -17,8 +17,8 @@ We used Lab 5 from the QMUL cloud computing module [1] as the basis for our appl
   - `sudo docker build . -t music_app`
 - Run:
   - `sudo docker run -p 80:80 music_app`
-- Test it works by going to the IP address of your VM instance, add :80 (for the port), you should see a page saying 'Welcome to music finder!'
-- If you now add `/records/all_bands/` to the URL you should see '["Radiohead","Portishead"]'
+- Test it works by going to the IP address of your VM instance, add :80 (for the port), you should see a page saying 'Welcome to the Music Site!'
+- If you now add `/records/ you should see all the data stored in the SQL database
 
 # External API
 - We've implemented a call to the iTunes API which will return a URL to a video by the users chosen band. The way to make the call is as follows
